@@ -603,7 +603,7 @@
 		};
 		0535653625BA127800FDAFC0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
@@ -617,7 +617,7 @@
 		};
 		0535668125BA1E5300FDAFC0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
@@ -642,7 +642,7 @@
 		};
 		0585D19725BA89A200C169B0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
@@ -2739,10 +2739,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0535636A25B6223000FDAFC0 /* Build configuration list for PBXNativeTarget "CGLSLang" */;
 			buildPhases = (
+				0535653625BA127800FDAFC0 /* CopyFiles */,
 				0535636325B6223000FDAFC0 /* Headers */,
 				0535636425B6223000FDAFC0 /* Sources */,
 				0535636525B6223000FDAFC0 /* Frameworks */,
-				0535653625BA127800FDAFC0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -2774,10 +2774,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0535661125BA1C7F00FDAFC0 /* Build configuration list for PBXNativeTarget "CSPIRVCross" */;
 			buildPhases = (
+				0535668125BA1E5300FDAFC0 /* CopyFiles */,
 				0535660C25BA1C7F00FDAFC0 /* Headers */,
 				0535660D25BA1C7F00FDAFC0 /* Sources */,
 				0535660E25BA1C7F00FDAFC0 /* Frameworks */,
-				0535668125BA1E5300FDAFC0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -2827,10 +2827,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0585CA3F25BA751E00C169B0 /* Build configuration list for PBXNativeTarget "CSPIRVTools" */;
 			buildPhases = (
+				0585D19725BA89A200C169B0 /* CopyFiles */,
 				0585CA3A25BA751E00C169B0 /* Headers */,
 				0585CA3B25BA751E00C169B0 /* Sources */,
 				0585CA3C25BA751E00C169B0 /* Frameworks */,
-				0585D19725BA89A200C169B0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
